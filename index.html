@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina sobre Html</title>
+</head>
+<body>
+    <h1 id="inicio">Um pouco sobre HTML</h1>
+    <hr>
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#historia">Historia do HTML</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#tags">Tags no HTML</a></li>
+        <li><a href="#exemplos">Exemplos de Algumas Tags e seus Significados</a></li>
+        <li><a href="#bibliografia">Bibliografia</a></li>
+    </ul>
+    <h2 id="historia">História do HTML</h2>
+    <p>O HTML (HyperText Markup Language) é a linguagem fundamental utilizada para criar páginas da web. Sua história remonta ao início da World Wide Web nos anos 1990.</p>
+    <p>Anos 1980: Tim Berners-Lee, um cientista da computação britânico, desenvolveu a ideia de um sistema de informações conectado globalmente enquanto trabalhava no CERN (Organização Europeia para a Pesquisa Nuclear). Ele propôs o conceito de hipertexto, que permitia aos usuários navegar por informações interconectadas.</p>
+    <p>Anos 1990: Berners-Lee cria o primeiro navegador, o WorldWideWeb (mais tarde renomeado Nexus), e o primeiro servidor web. Ele também desenvolveu o HTML como uma linguagem de marcação simples para criar e vincular documentos hipertexto.</p>
+    <p>Anos 1993: O HTML evoluiu para a versão 2.0, que introduziu elementos como tabelas e formulários. No entanto, o desenvolvimento estava fragmentado, com diferentes navegadores interpretando o HTML de maneira diferente.</p>
+    <p>Anos 1995: O HTML 3.0 foi lançado com mais recursos de formatação e layout, mas a inconsistência na interpretação pelos navegadores continuou a ser um problema.</p>
+    <p>Anos 1997: O HTML 4.0 foi lançado com recursos avançados de layout e formatação, introduzindo a noção de folhas de estilo em cascata (CSS) para controlar a aparência das páginas. Isso separou a estrutura (HTML) da apresentação (CSS).</p>
+    <p>Anos 2000: A web continuou a crescer exponencialmente, mas a falta de padrões consistentes entre os navegadores levou a problemas de compatibilidade. Isso resultou em práticas de desenvolvimento complicadas e incompatibilidades entre sites.</p>
+    <p>Anos 2000 a 2010: Organizações como o World Wide Web Consortium (W3C) trabalharam para desenvolver padrões mais robustos, incluindo o HTML5, que foi projetado para ser mais flexível, suportar multimídia (como áudio e vídeo) nativamente e melhorar a semântica dos documentos web.</p>
+    <p>Anos 2014: O W3C oficialmente recomendou o HTML5 como um padrão web, e ele se tornou amplamente adotado por desenvolvedores e navegadores. O HTML5 trouxe tags semânticas (como header, nav, section, etc.) que melhoraram a acessibilidade e a estruturação das páginas.</p>
+    <p>Presente: O HTML5 continua sendo o padrão dominante para a criação de páginas da web. O W3C e a comunidade de desenvolvedores continuam a trabalhar em melhorias e extensões para a linguagem, visando melhorar a experiência do usuário e a acessibilidade.</p>
+    <h2 id="curiosidades">Curiosidade</h2>
+    <a href="#inicio">Topo</a>
+    <p>A Web como o mundo conhece hoje não era a ideia inicial de quem participou da sua criação, tampouco de Tim Berners-Lee, conhecido como o Pai da World Wide Web (o tal do WWW). O primeiro site da grande rede é um belo exemplo dessa distinção de finalidade — e, hoje (6), este marco histórico completa 30 anos desde a sua estreia.</p>
+    <p>The Project, como é conhecida o primeiro site da história, foi criado pelo próprio Berners-Lee. Sua estreia aconteceu no dia 6 de agosto de 1991 e, nele, seu criador descreve brevemente detalhes da World Wide Web.</p>
+    <p>O objetivo deste espaço principal era permitir que os profissionais do Centro de Europeu de Pesquisa Nuclear (CERN) — no qual Berners-Lee atuava como físico — tivessem acesso rápido aos códigos e procedimentos para criar sites semelhantes.</p>
+    <p>Basicamente, The Project era constituído por um bloco de HTML simples, sem recursos de estilização, imagens ou qualquer recurso dinâmico. A página era recheada de links que encaminham visitantes para respostas rápidas a perguntas como “o que existe por aí?”, e “como posso ajudar?”.</p>
+    <p>O domínio do site ainda é o mesmo e funciona perfeitamente — <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">e você pode acessar aqui o primeiro site da Web.</a> Hoje, qualquer pessoa com o mínimo de conhecimento em linguagem de marcação de hipertexto é capaz de fazer um projeto semelhante usando o Bloco de Notas do Windows, por exemplo. A título de curiosidade, você pode experimentar o “Inspecionar elemento” ou apertar a tecla F12 para abrir os detalhes da formatação.</p>
+    <h2 id="tags">Tags do HTML</h2>
+    <a href="#inicio">Topo</a>
+    <p>No HTML, as "tags" são elementos fundamentais que definem a estrutura e o conteúdo de uma página da web. Elas são usadas para marcar partes específicas do texto e fornecer instruções ao navegador sobre como renderizar e exibir o conteúdo. As tags são escritas entre colchetes angulares ("<" e ">") e geralmente vêm aos pares, consistindo em uma tag de abertura e uma tag de fechamento correspondente.</p>
+    <h3>Tags de Abertura e Fechamento</h3>
+    <p>As tags geralmente vêm em pares, onde a primeira tag é a de abertura e a segunda é a de fechamento. A tag de fechamento tem uma barra ("/") antes do nome da tag. Por exemplo, &ltp&gt é uma tag de abertura para um parágrafo, e &lt/p&gt é a tag de fechamento correspondente.</p>
+    <h3>Elementos e Conteúdo</h3>
+    <p>As tags definem elementos em uma página, como parágrafos, títulos, imagens, links, listas, etc. O conteúdo que está entre as tags é o que será exibido na página.</p>
+    <h3>Atributos</h3>
+    <p>As tags podem conter atributos, que são informações adicionais sobre o elemento. Os atributos fornecem informações como o endereço de um link, o tamanho de uma imagem, a cor de um elemento, etc. Os atributos são inseridos dentro da tag de abertura e são compostos de um nome e um valor, separados por um sinal de igual ("=").</p>
+    <h3>Tags de Auto-Fechamento</h3>
+    <p>Algumas tags não têm uma tag de fechamento correspondente porque são auto-fechadas. Isso significa que elas não têm conteúdo interno. Exemplos são as tags &ltimg&gt, &ltbr&gt, e &ltinput&gt.</p>
+    <h3>Aninhamentos de Tags</h3>
+    <p>As tags podem ser aninhadas umas dentro das outras para criar uma hierarquia de elementos. No entanto, é importante que elas sejam abertas e fechadas na ordem correta para evitar erros na renderização.</p>
+    <h3>Semântica</h3>
+    <p>O HTML5 introduziu muitas tags semânticas que dão significado ao conteúdo, facilitando para os motores de busca e leitores de tela entenderem a estrutura do documento. Exemplos incluem &ltheader&gt, &ltnav&gt, &ltmain&gt, &ltarticle&gt, &ltfooter&gt, entre outros.</p>
+    <h2 id="exemplos">Exemplos de Algumas Tags e seus Significados</h2>
+    <a href="#inicio">Topo</a>
+    <p>&lth1&gt: É a tag de cabeçalho de nível mais alto e geralmente é usada para o título principal da página. Ela é a mais visível e tem o maior tamanho em comparação com as outras tags de cabeçalho.</p>
+    <p>&lth2&gt: É uma tag de cabeçalho de nível um pouco menor que o h1. Geralmente é usado para títulos de seções importantes após o título principal.</p>
+    <p>&lth3&gt até h6&gt: São tags de cabeçalho de níveis subsequentes, cada uma com um tamanho menor e indicando níveis de importância decrescentes. Elas são usadas para estruturar o conteúdo em subseções e detalhes dentro das seções principais.</p>
+    <p>&ltp&gt: Ela é usada para definir um parágrafo de texto. Tem &ltp&gt (abertura) e &lt/p&gt (fechamento)</p>
+    <p>&ltmark&gt: é usada para indicar que um trecho de texto dentro de um parágrafo ou outro elemento deve ser realçado de alguma forma, normalmente com uma cor de fundo. Tem &ltmark&gt (abertura) e &lt/mark&gt (fechamento)</p>
+    <p>&ltsmall&gt: é uma tag do HTML que é usada para indicar que o texto dentro dela deve ser renderizado em um tamanho menor do que o texto circundante. Tem &ltsmall&gt (abertura) e &lt/small&gt (fechamento)</p>
+    <p>&lti&gt: é usada para indicar texto em itálico. Tem &lti&gt (abertura) e &lt/i&gt (fechamento)</p>
+    <p>&ltu&gt: é usada para sublinhar o texto, indicando que ele deveria ser exibido com uma linha horizontal sob eleTem &ltu&gt (abertura) e &lt/u&gt (fechamento)</p>
+    <p>&ltstrong&gt: Essa tag é usada para enfatizar o texto, geralmente exibindo-o em negrito. Ela indica que o texto é importante ou deve ser destacado. Tem &ltstrong&gt (abertura) e &lt/strong&gt (fechamento)</p>
+    <p>&ltol&gt: Essa tag é usada para criar uma lista ordenada, que exibe itens numerados sequencialmente. Tem &ltol&gt (abertura) e &lt/ol&gt (fechamento)</p>
+    <p>&ltul&gt: Essa tag é usada para criar uma lista não ordenada, que exibe itens com marcadores. Tem &ltul&gt (abertura) e &lt/ul&gt (fechamento)</p>
+    <p>&ltli&gt: Essa tag é usada dentro de &ltol&gt e &ltul&gt para definir cada item da lista, seja ordenada ou não ordenada.Tem &ltli&gt (abertura) e &lt/li&gt (fechamento)</p>
+    <p>&lta&gt: Essa tag é usada para criar links. Você define o atributo href para especificar o URL de destino do link. Tem &lta&gt (abertura) e &lt/a&gt (fechamento)</p>
+    <p>&lthr&gt: Essa tag cria uma linha horizontal para separar o conteúdo. Geralmente é usada para dividir seções distintas. Não tem tag de fechamento.</p>
+    <p>&ltsub&gt: Essa tag é usada para exibir texto como subscrito, ou seja, ligeiramente abaixo da linha base. É frequentemente usado para fórmulas químicas ou notações matemáticas. Tem &ltsub&gt (abertura) e &lt/sub&gt (fechamento)</p>
+    <p>&ltsup&gt: Essa tag é usada para exibir texto como sobrescrito, ou seja, ligeiramente acima da linha base. Também é usado para fórmulas e notações. Tem &ltsup&gt (abertura) e &lt/sup&gt (fechamento)</p>
+    <p>&ltblockquote&gt: Essa tag é usada para destacar um bloco de texto que é uma citação de outra fonte. O texto é frequentemente recuado e pode ser usado para melhorar a formatação de citações. Tem &ltblockquote&gt (abertura) e &lt/blockquote&gt (fechamento)</p>
+    <p>&ltfont&gt: Embora tenha sido amplamente usada para definir o tamanho, a cor e o tipo de fonte, ela é considerada obsoleta. É recomendável usar CSS para estilos de fonte. Tem &ltfont&gt (abertura) e &lt/font&gt (fechamento)</p>
+    <p>&ltdel&gt: Essa tag é usada para indicar texto que foi removido ou riscado. É frequentemente usado em edições de documentos. Tem &ltdel&gt (abertura) e &lt/del&gt (fechamento)</p>
+    <p>&ltabbr&gt: Essa tag é usada para definir uma abreviação ou acrônimo no texto. O atributo title é usado para fornecer a expansão completa quando o usuário paira sobre o texto. Tem &ltabbr&gt (abertura) e &lt/abbr&gt (fechamento)</p>
+    <h2 id="bibliografia">Bibliografia</h2>
+    <a href="#inicio">Topo</a><br><br> 
+    <a href="https://canaltech.com.br/internet/primeiro-site-da-historia-internet-web-191846/">https://canaltech.com.br/internet/primeiro-site-da-historia-internet-web-191846/</a>  
+    <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">http://info.cern.ch/hypertext/WWW/TheProject.html</a><br>
+    <a href="https://youtu.be/NSmapCNcSyI">https://youtu.be/NSmapCNcSyI</a>
+</body>
+</html>
